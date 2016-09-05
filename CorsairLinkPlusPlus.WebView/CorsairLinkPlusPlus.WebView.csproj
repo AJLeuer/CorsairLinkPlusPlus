@@ -24,7 +24,7 @@
     <ProjectGuid>{CF1B6833-04FA-4C3E-BBC1-B131AD48B17D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -59,7 +59,9 @@
     <None Include="CorsairLinkPlusPlus.WebView.licenseheader" />
     <None Include="Gruntfile.js" />
     <None Include="package.json" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="src\css\main.less" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +73,8 @@
     <Content Include="src\css\images\thermistor_outer.svg" />
     <Content Include="src\css\main.css" />
     <Content Include="src\index.html" />
+    <Content Include="src\js\Api.js" />
+    <Content Include="src\js\classes\Chart.js" />
     <Content Include="src\js\classes\Color.js" />
     <Content Include="src\js\classes\ControlCurve.js" />
     <Content Include="src\js\classes\Controller.js" />
@@ -119,6 +123,7 @@
     <Content Include="src\js\classes\InvalidArgumentError.js" />
     <Content Include="src\js\classes\NotImplementedError.js" />
     <Content Include="src\js\classes\SensorFactory.js" />
+    <Content Include="src\js\classes\Util.js" />
     <Content Include="src\js\libraries\api.js" />
     <Content Include="src\js\libraries\util.js" />
     <Content Include="src\js\main.js" />
